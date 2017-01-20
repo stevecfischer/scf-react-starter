@@ -1,12 +1,10 @@
 // Libs
 import React from 'react';
 
-let HelloWorld = React.createClass({
-  render: ()=> {
-    return(
-      <div className="header">Hello World</div>
-    );
+class HelloWorld extends React.Component{
+  render(){
+    return <div className="header">Helloss World</div>;
   }
-});
+}
 
 export default HelloWorld;
